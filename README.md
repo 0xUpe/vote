@@ -3,6 +3,9 @@
 ## Overview
 Upe Vote is a simple voting system built with WordPress and Gravity Forms. It enables community members to participate in weekly votes to decide on events to be featured in the Upe Email/WhatsApp Digest and displayed on community pages.
 
+![image](https://github.com/0xUpe/vote/assets/168289188/4e163315-ea79-4205-b4d3-8e01df6e748b)
+
+
 ## Features
 - **Weekly Voting**: Allows community members to vote once a week on their preferred events.
 - **Gravity Forms Integration**: Utilizes Gravity Forms for easy and efficient form management.
