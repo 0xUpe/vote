@@ -18,6 +18,11 @@ Upe Vote is a simple voting system built with WordPress and Gravity Forms. It en
 2. **Install Gravity Forms**: Purchase and install the Gravity Forms plugin from [Gravity Forms Website](https://www.gravityforms.com/).
 3. **Import Forms**: Import the provided form templates into Gravity Forms.
 4. **Set Up Pages**: Create pages in WordPress to display the voting form and results.
+5. **Upload or Insert JS into Voting Page**:
+   - `location-sort.js`: This script enhances the user experience by allowing voters to sort event locations on the voting page according to their preferences. If a user prefers to see and vote on events in their local area, they can configure the script to hide events located elsewhere. This feature is particularly useful for communities spread across large geographic areas, ensuring that users can focus on relevant local activities.
+   
+   - `vote-scroll-svg.js`: This script handles two main functionalities. Firstly, it applies basic styling to SVG elements used for radio button vote options, ensuring a consistent and visually appealing interface across all devices and browsers. Secondly, it implements auto-scrolling behavior during the voting process. When a user casts a vote, the page will automatically scroll to the next item, eliminating the need for manual scrolling and thus enhancing the user experience by providing a smooth and seamless voting interaction.
+
 
 ## Configuration
 - **Gravity Forms Setup**: Configure your forms according to the provided templates to ensure proper data collection and processing.
