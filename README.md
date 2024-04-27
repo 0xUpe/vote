@@ -40,7 +40,7 @@ Upe Vote is a simple voting system built with WordPress and Gravity Forms. It en
 Interested in contributing to the Upe Vote project? Reach out to us on [u.pe](https://u.pe/)
 
 ## License
-Upe Vote is open-source and is licensed under the MIT License. See the LICENSE file for more details.
+Upe Vote is open-source and is licensed under the GPL License. See the LICENSE file for more details.
 
 ## Acknowledgements
 Thanks to everyone who has contributed to the development of Upe Vote, especially the dedicated community members who participate in the voting each week.
