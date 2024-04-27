@@ -1,7 +1,7 @@
 # Upe Vote
 
 ## Overview
-[Upe Vote](https://u.pe/vote/) is a simple voting system built with WordPress and Gravity Forms. It enables community members to participate in weekly votes to decide on events to be featured in the Upe Email/WhatsApp Digest and displayed on community pages.
+[Upe Vote](https://u.pe/vote/) is a simple voting system built with WordPress and Gravity Forms. It enables community members to participate in weekly votes to decide on events to be featured in the Upe Email/WhatsApp Digest, displayed on community pages and on social media posts.
 
 ![image](https://github.com/0xUpe/vote/assets/168289188/4e163315-ea79-4205-b4d3-8e01df6e748b)
 
@@ -11,10 +11,14 @@
 - **Gravity Forms Integration**: Utilizes Gravity Forms for easy and efficient form management.
 - **Email/WhatsApp Digest Integration**: Syndicates the most voted events into the Upe Email and WhatsApp digest.
 - **Community Page Display**: Shows the top-voted events on dedicated community pages.
+- **Voting Data Scored and Tracked**: Form data is exported to Google Sheets where voting scores are tallied, then linked to Looker Studio for data visualization.
+![image](https://github.com/0xUpe/vote/assets/168289188/3bac5549-4ae9-4761-8b6a-811badfe3ea5)
 
 ## Requirements
 - **WordPress**: Upe Vote runs on any standard WordPress installation.
 - **Gravity Forms Plugin**: Ensure you have the Gravity Forms plugin installed and activated in your WordPress site.
+- **Google Sheets**: Upe Vote exports form data into Google Sheets and tallies the weekly votes
+- **Google Looker Studio**: Connect Google Sheet data to a Looker Studio report.
 
 ## Installation
 1. **Install WordPress**: Ensure you have a WordPress site set up.
@@ -34,7 +38,8 @@
 
 ## Usage
 1. **Voting**: Community members can vote by accessing the voting page during the open voting period each week.
-2. **View Results**: Results are exported  and can be viewed on the community page dedicated to event results.
+2. **View Results**: Results are exported and can be viewed on the [Upe Local Digest Data dashboard](https://lookerstudio.google.com/s/tnsTioV9yfw).
+![image](https://github.com/0xUpe/vote/assets/168289188/c65397a2-7949-4691-ba81-44c619011bd3)
 
 ## Contributing
 Interested in contributing to the Upe Vote project? Reach out to us on [u.pe](https://u.pe/)
